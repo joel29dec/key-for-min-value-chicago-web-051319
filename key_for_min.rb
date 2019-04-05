@@ -2,6 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 ikea = {:chair => 25, :table => 85, :mattress => 450}
 def key_for_min_value(name_hash)
+<<<<<<< HEAD
   if name_hash == {}
     nil
   else
@@ -44,3 +45,21 @@ key_for_min_value(ikea)
   
 
 
+=======
+  keys = []
+  values = []
+  name_hash.each do |key, value|
+  keys << key
+  values << value
+  end
+  print keys
+  print values
+  min = 0
+  counter = 0 
+end
+  for counter in values.length 
+  
+end
+
+key_for_min_value(ikea)
+>>>>>>> ca7ced8d9922c215718116ce558f408c7dff81a5
